@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Njabulo Ntuli's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #006400;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            color: #2e8b57;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        footer {
+            background-color: #2e8b57;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .nature {
+            background: url('https://via.placeholder.com/1200x400.png?text=Nature') no-repeat center center;
+            background-size: cover;
+            height: 200px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        .cyber {
+            background: url('https://via.placeholder.com/1200x400.png?text=Cyber') no-repeat center center;
+            background-size: cover;
+            height: 200px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Njabulo Ntuli</h1>
+        <p>Exploring the intersection of nature and technology</p>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <div class="nature"></div>
+            <h2>About Me</h2>
+            <p>Hi, I'm Njabulo Ntuli. I have a profound appreciation for the beauty and resilience of nature, and a fascination with the advancements in technology. My interests lie at the intersection where these two realms meet, where technology influences nature, and nature strives to reclaim its space.</p>
+        </div>
+
+        <div class="section">
+            <div class="cyber"></div>
+            <h2>Portfolio</h2>
+            <p>Here are some of my projects that showcase the blend of technology and nature:</p>
+            <ul>
+                <li>Project 1: Reforestation Drones</li>
+                <li>Project 2: Solar-Powered Smart Gardens</li>
+                <li>Project 3: AI-Driven Wildlife Conservation</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Blog</h2>
+            <p>Read my latest thoughts and explorations on nature and technology:</p>
+            <ul>
+                <li><a href="#">Blog Post 1: The Rise of Eco-Tech</a></li>
+                <li><a href="#">Blog Post 2: Nature's Resilience in the Digital Age</a></li>
+                <li><a href="#">Blog Post 3: Tech Innovations Inspired by Nature</a></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, feel free to reach out to me at:</p>
+            <p>Email: njabulo@example.com</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Njabulo Ntuli. All rights reserved.</p>
+    </footer>
+</body>
+</html>
